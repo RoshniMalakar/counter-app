@@ -14,9 +14,6 @@ function App() {
         <div className="head">
           <h2>Counter App</h2>
         </div>
-        {/* <div className="count">
-          <h1 className="count">{count}</h1>
-        </div> */}
         <div className="counter">
           <button onClick={decrease}>-</button>
           <h2 className="count">{count}</h2>
