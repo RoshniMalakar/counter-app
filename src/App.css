@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+button {
+  cursor: pointer;
+}
+.app {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.app .main {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 10px rgb(235, 89, 150);
+  background: linear-gradient(
+    to top,
+    rgb(235, 89, 150),
+    rgb(238, 15, 108),
+    rgb(235, 89, 150)
+  );
+}
+.app .main .head h2 {
+  color: rgb(59, 59, 59);
+  font-size: 38px;
+  white-space: nowrap;
+}
+.app .main .counter h2 {
+  font-size: 40px;
+}
+.app .main .counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0px;
+}
+.app .main .counter button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.app .main .reset button {
+  padding: 10px 15px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
